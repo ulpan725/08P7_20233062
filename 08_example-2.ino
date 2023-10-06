@@ -68,10 +68,6 @@ void loop() {
   last_sampling_time = millis();
 }
 
-
-
-
-
 // Get a §distance reading from USS. Return value is in millimeter.
 float USS_measure(int TRIG, int ECHO)
 {
